@@ -9,9 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{9D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee", "Employee\Employee.csproj", "{39B11AB4-5214-4859-AD19-91DF2F6C25E0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{1DFB387C-567E-4095-BBDA-B824C2ED2A16}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess.MsSQL", "DataAccess.MsSQL", "{1DFB387C-567E-4095-BBDA-B824C2ED2A16}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2FCDCDAD-CCEA-4C03-8734-FCC7C2ED2AE8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Interfaces", "Infrastructure.Interfaces", "{2FCDCDAD-CCEA-4C03-8734-FCC7C2ED2AE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{79D980E0-3338-47A1-A638-25FC11E125A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests.Unit", "Tests.Unit", "{D30B2B24-63B8-42CD-A9C3-CFC4B50DFD50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{A98610EB-6865-481F-A21B-93BB1FBB9533}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,7 +38,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{7C04DE3F-6802-47AB-BD72-C2EEBC8F4F39} = {79D980E0-3338-47A1-A638-25FC11E125A4}
 		{39B11AB4-5214-4859-AD19-91DF2F6C25E0} = {9D5B3A76-695D-481A-B700-7705053FDAE8}
+		{A98610EB-6865-481F-A21B-93BB1FBB9533} = {2FCDCDAD-CCEA-4C03-8734-FCC7C2ED2AE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5885EBAF-16CC-4E12-874E-8F30BD9C57E2}
