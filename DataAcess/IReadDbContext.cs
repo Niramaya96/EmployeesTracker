@@ -1,7 +1,11 @@
-﻿
+﻿using Models;
+using System.Linq;
+
 namespace DataAcess
 {
-    internal interface IReadDbContext
+    public interface IReadDbContext
     {
+        IQueryable<Employee> Employees { get; }
+        IQueryable<Department> Departments { get; }
     }
 }

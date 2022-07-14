@@ -1,13 +1,11 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Models;
 
 namespace DataAcess
 {
-    internal interface IDbContext
+    public interface IDbContext
     {
         DbSet<Employee> Employees { get; }
-
         DbSet<Department> Departments { get; }
-
     }
 }
