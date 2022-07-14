@@ -1,7 +1,6 @@
-﻿using System;
+﻿
 
-
-namespace Employee
+namespace Entities
 {
     internal class Employee
     {
@@ -10,12 +9,10 @@ namespace Employee
         
         public string Surname { get; set; }
 
-        public string DateOfBirth { get; set; }
+        public DateOnly DateOfBirth { get; set; }
         public string Adress { get; set; }
-        public string Department { get; set; }
+        public Department Department { get; set; }
         public string? Description { get; set; }
-
-
 
 
     }
