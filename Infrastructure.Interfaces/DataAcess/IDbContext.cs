@@ -5,7 +5,7 @@ namespace Infrastructure.Interfaces.DataAcess
 {
     public interface IDbContext
     {
-        DbSet<Employee> Employees { get; }
-        DbSet<Department> Departments { get; }
+        DbSet<Employee> Employees { get; set; }
+        DbSet<Department> Departments { get; set; }
     }
 }
